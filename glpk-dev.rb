@@ -20,6 +20,7 @@ class GlpkDev < Formula
 
     # Install the examples so we can easily write a meaningful test
     pkgshare.install "examples"
+    pkgshare.install "doc"
   end
 
   test do
